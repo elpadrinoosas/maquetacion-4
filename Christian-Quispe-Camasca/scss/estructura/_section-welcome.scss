@@ -1,0 +1,39 @@
+.welcome{
+    margin: 100px 0 150px;
+}
+.news-img{
+    object-fit: cover;
+    height: 195px;
+    width: 100%;
+}
+
+
+
+.news-img-principal{
+    height: 400px;
+}
+.date{
+    width: 100%;
+    position: absolute;
+    padding: 1em;
+    bottom: 10px;
+    left: 0;
+    background-image: linear-gradient(transparent, #00000091 95%);
+    h3{
+        color: #ffffff;
+    }
+    span{
+        color: #ffffff;
+    }
+    p{
+        color: #ffffff;
+    }
+}   
+.news{
+    height: 205px;
+    width: 95%;
+    position: relative;
+}
+.news-principal{
+    height: 100%;
+}

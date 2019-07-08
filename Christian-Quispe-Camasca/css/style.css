@@ -1,0 +1,142 @@
+body {
+  margin-top: 40px;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 100;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.title {
+  margin: 0;
+}
+
+.navigation {
+  height: 40px;
+}
+
+.menu-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.menu-item {
+  width: 60px;
+  position: relative;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-right: 1px solid #666666;
+}
+.menu-item:hover {
+  background: #333333;
+  color: #cccccc;
+}
+.menu-item::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  transition: all 0.2s linear;
+}
+.menu-item:hover::after {
+  width: 100%;
+  left: 0;
+}
+.menu-item:nth-child(1) {
+  border-left: 1px solid #666666;
+}
+.menu-item:nth-child(1)::after {
+  background-color: deepskyblue;
+}
+.menu-item:nth-child(2)::after {
+  background-color: orangered;
+}
+.menu-item:nth-child(3)::after {
+  background-color: mediumpurple;
+}
+.menu-item:nth-child(4)::after {
+  background-color: limegreen;
+}
+.menu-item:nth-child(5)::after {
+  background-color: deeppink;
+}
+
+.menu-link {
+  color: #ffffff;
+}
+
+.container-search {
+  position: relative;
+}
+
+[type*=search] {
+  width: 170px;
+}
+
+.search {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 15px;
+}
+
+.welcome {
+  margin: 100px 0 150px;
+}
+
+.news-img {
+  object-fit: cover;
+  height: 195px;
+  width: 100%;
+}
+
+.news-img-principal {
+  height: 400px;
+}
+
+.date {
+  width: 100%;
+  position: absolute;
+  padding: 1em;
+  bottom: 10px;
+  left: 0;
+  background-image: linear-gradient(transparent, #00000091 95%);
+}
+.date h3 {
+  color: #ffffff;
+}
+.date span {
+  color: #ffffff;
+}
+.date p {
+  color: #ffffff;
+}
+
+.news {
+  height: 205px;
+  width: 95%;
+  position: relative;
+}
+
+.news-principal {
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

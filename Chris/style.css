@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.caja{
+    height: 50vh;
+    background-color: #999999;
+    width: 90vw;
+    display: flex;
+    
+    /* flex-direction: column; */
+}       
+.caja .hijo:nth-child(3){
+    background-color: lightblue;
+    /* flex-basis: 20%; */
+    flex-grow: 4;
+}
+.caja .hijo:nth-child(1){
+    background-color: rgb(40, 26, 119);
+    /* flex-basis: 20%; */
+    flex-grow: 1;
+}
+.caja .hijo:nth-child(2){
+    background-color: rgb(40, 26, 119);
+    /* flex-basis: 20%; */
+    flex-grow: 1;
+}

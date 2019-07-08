@@ -1,0 +1,13 @@
+@mixin header-fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+@mixin date-position{
+    width: 100%;
+    position: absolute;
+    padding: 1em;
+    bottom: 0px;
+    left: 0;
+}
